@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300&family=Overpass:ital,wght@0,100;0,200;0,300;0,600;0,700;0,900;1,100;1,200&display=swap');
 @keyframes pisca{
     0% {
         opacity: 0.2;
@@ -14,7 +15,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Overpass', sans-serif;
+    /* font-family: 'Overpass Mono', monospace; */
 }
 
 .urna{
@@ -147,4 +150,18 @@ body{
     font-size: 15px;
     border-top: 2px solid #000;
     padding-left: 10px;
+}
+
+.aviso--grande{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.aviso--gigante{
+    font-size: 70px;
+    font-weight: bold;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
